@@ -9,7 +9,7 @@ export default async function handler(req, res) {
 
         const data = await axios.get(urlID)
 
-        if (nameData.data.is_baby) {
+        if (nameData.data.) {
             return res.json({"evolution": data.data.chain.evolves_to[0].species.name});
         } else {
             return res.json({"evolution": data.data.chain.evolves_to[0].evolves_to[0].species.name});
