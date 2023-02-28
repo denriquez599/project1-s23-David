@@ -1,0 +1,86 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    display: block;
+    padding: 10px 10px 20px;
+    margin: 5px;
+    max-width: 500px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.poketitle {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding-left: 30%;
+}
+.pokepoint {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding-left: 70%;
+}
+.title-rows {
+    display: block;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.cardContainer {
+    padding-top: 2%;
+    width: screen;
+    height:fit-content;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.pokePicture {
+    height: 70%;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+.pokeCard {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 495px;
+    width: 350px;
+    border-radius: 16.5px;
+}
+.foreground {
+    z-index: 3;
+}
+.circle {
+    top: 225px;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    opacity: 50%;
+    border-radius: 50%;
+    z-index: 2;
+}
+.background {
+    width: 350px;
+    height: 496px;
+    border-radius: 16.5px;
+    position: absolute;
+    z-index: 1;
+    opacity: 75%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #3d7dca;
+}
+.fatCircle {
+    bottom: 250px;
+    width: 75px;
+    height: 25px;
+    position: absolute;
+    opacity: 30%;
+    border-radius: 10%;
+    z-index: 2;
+    background-color: black;
+}

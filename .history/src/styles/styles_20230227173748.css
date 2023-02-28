@@ -1,0 +1,52 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    display: block;
+    padding: 10px 10px 20px;
+    margin: 5px;
+    max-width: 500px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+.poketitle {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding-left: 30%;
+}
+.pokepoint {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding-left: 70%;
+}
+.title-rows {
+    display: block;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.cardContainer {
+    padding-top:5%;
+    width: screen;
+    height:fit-content;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.pokePicture {
+    height: 50%;
+    background-color: transparent;
+}
+.pokeCard {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: blue;
+    height: 495px;
+    width: 350px;
+    border-radius: 16.5px;
+}
